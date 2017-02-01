@@ -16,4 +16,6 @@ public class Professional {
     private String pais;
     
     private String m = "isso é um test git";
+    
+    private String mm = "lallalala";
 }
