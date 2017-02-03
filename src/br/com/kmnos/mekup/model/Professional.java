@@ -14,6 +14,7 @@ public class Professional {
     private String estado;
     private String cep;
     
+    private int nivel;
     private String login;
     private String senha;
 }

@@ -17,6 +17,7 @@ public class Client {
     private String estado;
     private String cep;
     
+    private int nivel;
     private String login;
     private String senha;
     

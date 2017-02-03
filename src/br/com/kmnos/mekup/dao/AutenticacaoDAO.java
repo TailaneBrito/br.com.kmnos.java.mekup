@@ -24,7 +24,7 @@ public class AutenticacaoDAO {
     private final String SENHA_BD = "";
     
     //QUERYS==========================================================
-    private final String CADASTRAR_LOGIN_SENHA = "INSERT INTO dados (usuario,senha) VALUES (?,MD5(?))";
+    private final String CADASTRAR_LOGIN_SENHA = "INSERT INTO usuarios (nivel,login,senha) VALUES (?,MD5(?))";
     private final String VERIFICAR_LOGIN_SENHA = "SELECT * FROM dados WHERE usuario = (?) AND senha = MD5(?)";
     private final String ALTERAR_SENHA_LOGIN = "";
         private final String ALTERAR_SENHA = "UPDATE dados SET senha=MD5(?) WHERE usuario = (?)";
